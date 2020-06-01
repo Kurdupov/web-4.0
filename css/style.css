@@ -1,0 +1,236 @@
+
+.basis {
+    position: absolute;
+    width: 229px;
+    height: 228px;
+    background: rgb(30, 221, 24);
+    bottom: 75px;
+    margin-left: 45px;
+}
+
+.door {
+    position: absolute;
+    height: 127px;
+    width: 68px;
+    background: brown;
+    bottom: 90px;
+    margin-left: 65px;
+}
+
+.window {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    background: white;
+    bottom: 170px;
+    margin-left: 180px;
+    outline: 2px solid #000;
+}
+
+.roof1 {
+    position: absolute;
+    height: 39px;
+    width: 259px;
+    background: rgb(212, 0, 255);
+    bottom: 262px;
+    margin: 36px;
+}
+
+.roof2 {
+    position: absolute;
+    height: 40px;
+    width: 200px;
+    background: rgb(216, 219, 6);
+    bottom: 255px;
+    margin: 62px;
+}
+
+.roof3 {
+    position: absolute;
+    height: 40px;
+    width: 140px;
+    background: red;
+    bottom: 245px;
+    margin: 94px;
+}
+
+
+
+
+.roof {
+    position: relative;
+    height: 0; 
+    width: 100px;
+    border-bottom: 140px solid rgb(19, 221, 97);
+    border-left: 90px solid transparent;
+    border-right: 90px solid transparent;
+    bottom: -545px;
+    margin-left: 690px;
+}
+
+.basis1 {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background: rgb(198, 17, 214);
+    bottom: -545px;
+    margin-left: 700px;
+}
+
+.window1 {
+    position: relative;
+    height: 70px;
+    width: 70px;
+    background: rgb(255, 255, 255);
+    bottom: -269px;
+    margin-left: 597px;
+    outline: 2px solid rgb(0, 0, 0);
+}
+
+.door1 {
+    z-index: 2;
+    position: relative;
+    height: 120px;
+    width: 60px;
+    background: rgb(99, 24, 24);
+    bottom: -415px;
+    margin-left: 800px;
+}
+
+
+.tube {
+    position: static;
+    height: 60px;
+    width: 40px;
+    background: grey;
+    margin-top: -220px;
+    margin-left: 160px;
+}
+
+.rooff {
+    position: relative;
+    z-index: 10000;
+    width: 0; 
+    height: 0;
+    border-left: 140px solid transparent;
+    border-right: 140px solid transparent;
+    border-bottom: 120px solid rgb(116, 107, 91);
+    margin-top: 40px;
+    margin-left: 10px;
+
+}
+
+
+.basis2 {
+    position: static;
+    width: 200px;
+    height: 200px;
+    background: rgb(18, 110, 95);
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.door2 {
+    z-index: 2;
+    position: static;
+    height: 120px;
+    width: 60px;
+    background: brown;
+    margin-top: -130px;
+    margin-left: -90px;
+}
+
+.window2 {
+    position: static;
+    height: 70px;
+    width: 70px;
+    background: white;
+    margin-top: -140px;
+    margin-left: 100px;
+    outline: 2px solid #000;
+}
+
+
+.sticky {
+    position: sticky;
+}
+
+.basis3 {
+    position: sticky;
+    width: 120px;
+    height: 120px;
+    background: rgba(102, 10, 10, 0.384);
+    bottom: 444px;
+    left: 50px;
+}
+.basis4 {
+    position: fixed;
+    width: 120px;
+    height: 120px;
+    background: rgba(100, 10, 10,0.384);
+    bottom: 715px;
+    left: 60px;
+}
+
+.rooff1 {
+    z-index: 10000;
+    position: sticky;
+    height: 0; 
+    width: 23px;
+    border-bottom: 100px solid rgb(168, 156, 156);
+    border-left: 55px solid transparent;
+    border-right: 50px solid transparent;
+    bottom: 563px;
+    left: 44px;
+}
+.rooff2 {
+    position: fixed;
+    z-index: 10000;
+    height: 0; 
+    width: 27px;
+    border-bottom: 100px solid rgb(168, 156, 156);
+    border-left: 48px solid transparent;
+    border-right: 50px solid transparent;
+    bottom: 830px;
+    left: 57px;
+}
+.door3 {
+    z-index: 10000;
+    position: sticky;
+    height: 80px;
+    width: 40px;
+    background: brown;
+    bottom: 444px;
+    left: 65px;
+}
+
+.window3 {
+    position: sticky;
+    height: 40px;
+    width: 40px;
+    background: white;
+    outline: 2px solid #000;
+    bottom: 504px;
+    left: 120px; 
+}
+
+
+.window4 {
+    position: fixed;
+    height: 40px;
+    width: 40px;
+    background: white;
+    outline: 2px solid #000;
+    bottom: 780px;
+    left: 70px;
+}
+
+.door4 {
+    position: fixed;
+    z-index: 10000;
+    height: 80px;
+    width: 40px;
+    background: brown;
+    bottom: 715px;
+    left: 126px;
+}
